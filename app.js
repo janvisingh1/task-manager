@@ -14,7 +14,7 @@ app.set('view engine', 'ejs');
 app.use(express.urlencoded({ extended: true }));
 
 
-mongoose.connect('mongodb://127.0.0.1:27017/todoapp');
+mongoose.connect('mongodb+srv://test1:1234@cluster0.ierqo1l.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0');
 
 const User = require('./models/User');
 
